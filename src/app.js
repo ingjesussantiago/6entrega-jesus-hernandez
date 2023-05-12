@@ -1,7 +1,7 @@
 import express from "express";
 import { __dirname } from "./utilis.js";
-import handlesbar from "express-handlebars";
-import home from "./router/home.router.js";
+import handlebars from "express-handlebars";
+import home from "./router/products.router.js";
 
 const app = express()
 
@@ -10,19 +10,13 @@ app.use(express.urlencoded({ extended: true }))
 
 app.use(express.static(__dirname + "/publics"))
 
-app.engine("handlesbar",handlesbar.engine())
+app.engine("handlebars", handlebars.engine())
 
 app.set("views",__dirname + "/views")
-app.set("view engine", "handlesbars")
+console.log(__dirname);
+app.set("view engine", "handlebars")
 
-
-app.get("/",(req,res)=>{
-    res.send("desde app")
-})
-app.get("/home",(req,res)=>{
-    res.send("desde router")
-})
-
+app.use("/products",home)
 
 
 
