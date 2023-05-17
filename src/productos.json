@@ -1,1 +1,38 @@
-[{"id":"1","name":"Hamburguesa Clasica","precio":65,"img":"/assets/img/clasica.png"},{"id":"2","name":"Hamburguesa Hawaiana","precio":75,"img":"/assets/img/hawaiana.png"},{"id":"3","name":"Hamburguesa Doble","precio":95,"img":"/assets/img/doble.png"},{"id":"4","name":"Coca","precio":35,"img":"/assets/img/coca.png"},{"id":"5","name":"Manzanita Sol","precio":35,"img":"/assets/img/ManzanitaSol.png"},{"id":"51","name":"Manzanita Sol","precio":35,"img":"/assets/img/ManzanitaSol.png"}]
+[
+    {
+        "id": "1",
+        "name": "Hamburguesa Clasica",
+        "precio": 65,
+        "img": "/assets/img/clasica.png"
+    },
+    {
+        "id": "2",
+        "name": "Hamburguesa Hawaiana",
+        "precio": 75,
+        "img": "/assets/img/hawaiana.png"
+    },
+    {
+        "id": "3",
+        "name": "Hamburguesa Doble",
+        "precio": 95,
+        "img": "/assets/img/doble.png"
+    },
+    {
+        "id": "4",
+        "name": "Coca",
+        "precio": 35,
+        "img": "/assets/img/coca.png"
+    },
+    {
+        "id": "5",
+        "name": "Manzanita Sol",
+        "precio": 35,
+        "img": "/assets/img/ManzanitaSol.png"
+    },
+    {
+        "id": "6",
+        "name": "Manzanita Sol",
+        "precio": 35,
+        "img": "/assets/img/ManzanitaSol.png"
+    }
+]
