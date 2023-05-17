@@ -100,7 +100,7 @@ export class managerProducto {
 
         let id
         if (productos.length === 0) {
-            id = 1
+            id =1
         } else {
             id = productos[productos.length - 1].id + 1
         }
