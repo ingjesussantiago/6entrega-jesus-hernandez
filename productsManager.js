@@ -11,7 +11,7 @@ export class managerProducto {
         if (fs.existsSync(this.path)) {
             const buscarProduct = await fs.promises.readFile(this.path, "utf-8")
             const productos = JSON.parse(buscarProduct)
-            console.log(productos)
+            // console.log(productos)
             return productos
         } else {
             console.log("no hay archivo")
