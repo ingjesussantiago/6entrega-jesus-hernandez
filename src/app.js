@@ -37,9 +37,9 @@ const socketServer = new Server(httpServer)
 socketServer.on("connection", (Socket) => {
     console.log(`cliente conectado:${Socket.id}`);
 
-    Socket.on("disconecte", (Socket) => {
-        console.log(`cliente conectado:${Socket.id}`);
-    })
+    Socket.on('disconnect', () => {
+        console.log(`Un cliente se ha desconectado:${Socket.id}`);
+      });
 
     Socket.emit("BIENVEINID0", "OK BIEN")
 

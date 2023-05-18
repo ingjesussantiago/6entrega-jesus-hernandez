@@ -28,11 +28,6 @@
         "name": "Manzanita Sol",
         "precio": 35,
         "img": "/assets/img/ManzanitaSol.png"
-    },
-    {
-        "id": "6",
-        "name": "Manzanita Sol",
-        "precio": 35,
-        "img": "/assets/img/ManzanitaSol.png"
     }
+  
 ]
